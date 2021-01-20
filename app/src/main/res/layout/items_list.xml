@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:layout_margin="10dp"
+    app:cardCornerRadius="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_edittext"
+       >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="نام اشیاء"
+                android:textColor="@android:color/black"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="name"
+                android:textColor="@android:color/black"
+                android:layout_alignParentLeft="true"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="مقدار کی قسم"
+                android:textColor="@android:color/black"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:id="@+id/item_scale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="kg"
+                android:textColor="@android:color/black"
+                android:layout_alignParentLeft="true"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="مقدار کی قیمت"
+                android:textColor="@android:color/black"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:gravity="center"
+                android:text="price"
+                android:textColor="@android:color/black"
+                android:layout_alignParentLeft="true"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+
+
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:gravity="center"
+               android:text="مقدار کی تعداد"
+               android:textColor="@android:color/black"
+               android:layout_alignParentRight="true"
+               android:textSize="20sp"
+               android:layout_centerVertical="true"
+               />
+           <TextView
+               android:id="@+id/tv_quantity"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:gravity="center"
+               android:text="Quantity"
+               android:textColor="@android:color/black"
+               android:layout_alignParentLeft="true"
+               android:textSize="20sp"
+               android:layout_centerVertical="true"
+               />
+       </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="قیمت فروخت"
+                android:textColor="@android:color/black"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:id="@+id/tv_qeematfrokht"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="Quantity"
+                android:textColor="@android:color/black"
+                android:layout_alignParentLeft="true"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/appcolor"/>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:padding="10dp"
+             android:gravity="center"
+             android:text="کل قیمت"
+             android:textColor="@android:color/black"
+             android:layout_alignParentRight="true"
+             android:textSize="20sp"
+             android:layout_centerVertical="true"
+             />
+         <TextView
+             android:id="@+id/price_total"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:padding="10dp"
+             android:gravity="center"
+             android:text="total price"
+             android:textColor="@android:color/black"
+             android:layout_alignParentLeft="true"
+             android:textSize="20sp"
+             android:layout_centerVertical="true"
+             />
+     </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
